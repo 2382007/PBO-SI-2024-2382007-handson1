@@ -7,7 +7,7 @@ public class TipeDataString {
 
         // Concatenation
         String fullName1 = firstName + " " + lastName;
-        String lastName2 = firstName.concat(" ").concat("");
+        String lastName2 = firstName.concat(" ").concat(lastName);
 
 
         //Primitive
