@@ -7,7 +7,8 @@ public class TipeDataArray {
         System.out.println(kumpulanAngka[2]);
 
         // Array multi-dmension
-        int[][] kumpulanAngkaMultidimension = new int
-
+        int[][] kumpulanAngkaMultidimension = new int[3][3];
+        kumpulanAngkaMultidimension[0] = kumpulanAngka;
+        System.out.println((kumpulanAngkaMultidimension)[0][2]);
     }
 }
